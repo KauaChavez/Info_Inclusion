@@ -1,0 +1,379 @@
+*
+{
+    font-family: 'Montagu Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* Menu */
+
+header
+{
+    padding: 0px 0;  
+}
+
+h1 
+{
+    color: #FFF;
+    height: none;
+    margin: 15px;
+    padding: 10px 0;
+    float: left;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.menu-desk
+{
+    float: right;
+}
+
+.menu-desk ul
+{
+    position: relative;
+    margin-top: 30px; 
+}
+
+.menu-desk a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-desk li
+{
+    padding: 10px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.menu-desk li.selected
+{
+    font-weight: bold;
+}
+
+.menu-desk a:hover
+{
+    text-decoration: underline;
+}
+
+/* Banner */
+
+.banner
+{ 
+    display: block;
+    background-image: url('../img/banner.jpeg');
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 300px;
+    color: #FFF;
+    font-family: 'Praise', cursive;
+    font-size: 42px;
+}
+
+.content
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Praise', cursive;
+}
+
+
+.botao
+{
+    text-align: center;
+    padding: 20px 34.736px;
+    text-decoration: none;
+    font-size: 14.8388px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 28px;
+    transition-duration: 0.5s;
+    background-color: transparent;
+    color: #ffffff;
+    border: white;
+    border: 2px solid white;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*diferenciais*/
+
+.diferenciais
+{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.line-text
+{
+    position: relative;
+    display: inline-block;
+}
+
+.line-text div
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 290px;
+    height: 3px;  
+}
+
+.line-text h2
+{
+    color: black;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.icones-diferenciais
+{
+    margin-top: 35px;
+    /*background-color: indigo;*/
+    text-align: center;
+}
+
+.box-icone-single h2 span
+{
+    color: #000;
+    font-size: 45px;
+}
+
+.box-icone-single 
+{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/*texto lado img*/
+img
+{
+    width: 430px;
+    margin-bottom: auto;
+}
+
+.texto-lado-img 
+{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-lado-img2
+{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-lado-img3
+{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.h4
+{
+    padding: 130px 0px;
+    text-align: center;
+}
+
+.line-text
+{
+    position: relative;
+    display: inline-block;
+}
+
+.line-text div
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 290px;
+    height: 60px;  
+}
+
+.line-text h2
+{
+    color: black;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.line-text p
+{
+    margin: 28px;
+    color: rgb(111, 104, 104);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* Rodapé / footer */
+.w33
+{
+    float: left;
+    width: 33.3%;
+}
+
+.footer1
+{
+    background: black;
+    padding: 20px 0px;
+    color: white;
+    height: 280px;
+}
+
+.footer1 h2
+{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.footer1 a
+{
+    display: block;
+    color: white;
+    margin-top: 15px;
+}
+
+.group-icons a
+{
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.footer2
+{
+    padding: 15px 0px;
+    background: DodgerBlue;
+    text-align: center;
+}
+
+/*Responsividade Geral*/
+
+.clear
+
+{
+  clear: both;
+}
+
+
+/*Iframe Responsivo*/
+
+
+.containerIframe1
+
+{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 50%;
+}
+
+.responsive-iframe
+
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+}
+
+
+/*Menu Mobile / Responsivo*/
+
+
+.menu-mobile
+
+{
+
+    display: none;
+    float: right;
+
+}
+
+
+.menu-mobile h2
+
+{
+  cursor: pointer;
+
+}
+
+
+.menu-mobile ul
+ixk-zyfr-gsc
+
+.menu-mobile li.selected
+
+{
+
+    background-color: rgb(187, 95, 53);
+
+}
+
+
+.menu-mobile a
+
+{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-weight: bolder;
+}
+
+
+@media screen and (max-width:500px)
+
+{
+
+    .menu-desk
+  {
+      display: none;
+  }
+
+    .menu-mobile
+
+    {
+      display: block;
+
+    }
+
+}
